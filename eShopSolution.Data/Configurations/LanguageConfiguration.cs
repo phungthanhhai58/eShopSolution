@@ -7,9 +7,9 @@ using System.Text;
 
 namespace eShopSolution.Data.Configurations
 {
-    public class LanguageConfiguration : IEntityTypeConfiguration<Contact>
+    public class LanguageConfiguration : IEntityTypeConfiguration<Language>
     {
-        public void Configure(EntityTypeBuilder<Contact> builder)
+        public void Configure(EntityTypeBuilder<Language> builder)
         {
             builder.ToTable("Languages");
 
